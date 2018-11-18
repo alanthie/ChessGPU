@@ -1,0 +1,21 @@
+################################################################################
+// Zeta OpenCL Chess config file for device: Intel(R) HD Graphics 520 
+################################################################################
+threadsX: 23;
+threadsY: 1;
+nodes_per_second: 415507;
+tt1_memory: 256; // in MB
+tt2_memory: 192; // in MB
+opencl_platform_id: 0;
+opencl_device_id: 0;
+opencl_gpugen: 2;
+################################################################################
+# threadsX           // Number of Compute Units resp. CPU cores 
+# threadsY           // Multiplier for threadsX
+# nodes_per_second   // nps of device, for initial time control
+# tt1_memory         // Allocate n MB of memory on device for classic hash table
+# tt2_memory         // Allocate n MB of memory on device for abdada hash table
+# opencl_platform_id // Which OpenCL platform to use
+# opencl_device_id   // Which OpenCL device to use
+# opencl_gpugen      // Which gpgpu generation with specific feature set
+################################################################################
